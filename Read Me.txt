@@ -1,0 +1,11 @@
+How to use this to check if your password has been leaked on the internet.
+
+1.) Open the HashTextTest.java file and put a password to be checked in the space labeled "Password" on line 13.
+	Alternatively, to check that it is working properly, leave this field as "Password" initially and check to see the value at the end is over 130,999
+
+2.) Click on pwnedCheck.sh to run the script. It will spit out the full SHA1 encrypted form of the given password, followed by the first and last five values of the hash
+	On the line saying "any matches will appear here" it will show the matching hash and the number of times that hashed password has been included in a leak.
+
+3.) the produced output.txt file includes all the hashed passwords released that include the first five numbers of your given password hash, not including those first five digits.
+
+That's it, hope it works for y'all LMAO this was my first time doing a lot of this shit so bear with me and lmk if you run into any issues. - Derrick
